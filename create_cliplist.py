@@ -7,20 +7,13 @@
 # Requires Python language Version 3.x
 #
 #  This script creates a .CSV file containing information about all a channel's clips
-#  The .CSV can be imported/read in Google Sheets or Excel, etc.
 #
 #  This then creates a a .TXT file with each line containing the HTTPS:// link to a clip
-#
-#  The  .TXT file can then be fed into the other script download_clips.py 
-#  which reads the file line by line and calls the external youtube-dl command
-#  to download all the clips  one by one.
 #
 #  This is written in Python-3 on a Linux system and needs the following Python3 libraries installed:
 #     requests,  json,  csv
 #
-#  The mass download script needs youtube-dl  installed.
-#
-#  You need a Twitch API project on Twitch's website for management tools
+#  Developers need an Twitch API project on Twitch's website for management tools
 #  and the credentials  which are a Client_Id and Client_Secret
 #   https://dev.twitch.tv/console
 #
