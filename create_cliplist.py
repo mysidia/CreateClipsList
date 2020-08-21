@@ -13,7 +13,7 @@
 #  This is written in Python-3 on a Linux system and needs the following Python3 libraries installed:
 #     requests,  json,  csv
 #
-#  Developers need an Twitch API project on Twitch's website for management tools
+#  Developers need an API project on Twitch's website for management tools
 #  and the credentials  which are a Client_Id and Client_Secret
 #   https://dev.twitch.tv/console
 #
